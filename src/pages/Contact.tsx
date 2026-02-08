@@ -8,8 +8,9 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+
       <main className="pt-20">
-        {/* Hero Banner */}
+        {/* Hero Section */}
         <section className="bg-primary text-primary-foreground section-padding !py-16 md:!py-20">
           <div className="container mx-auto px-4 text-center">
             <motion.h1
@@ -20,15 +21,17 @@ const Contact = () => {
               Contact Us
             </motion.h1>
             <p className="text-primary-foreground/80 max-w-2xl mx-auto">
-              Get in touch with Dr. Abhishek Chachan's clinic. We're here to help you with expert orthopedic care.
+              Get in touch with Dr. Abhishek Chachan&apos;s clinic. We&apos;re here
+              to help you with expert orthopedic care.
             </p>
           </div>
         </section>
 
-        {/* Contact Info & CTA */}
+        {/* Contact CTA & Info */}
         <section className="section-padding">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
+              {/* Call CTA */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -39,16 +42,22 @@ const Contact = () => {
                   Book an Appointment
                 </h2>
                 <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-                  Call us directly to schedule your consultation with Dr. Abhishek Chachan.
+                  Call us directly to schedule your consultation with
+                  Dr. Abhishek Chachan.
                 </p>
-                <a href="tel:+919829885908" className="inline-block">
-                  <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-10 py-6 text-lg font-semibold gap-3">
+
+                <a href="tel:+919829885908">
+                  <Button
+                    size="lg"
+                    className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-10 py-6 text-lg font-semibold gap-3"
+                  >
                     <Phone className="h-5 w-5" />
                     Call Now: +91 98298 85908
                   </Button>
                 </a>
               </motion.div>
 
+              {/* Info Cards */}
               <div className="grid sm:grid-cols-2 gap-6">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -62,9 +71,14 @@ const Contact = () => {
                       <Mail className="h-5 w-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-foreground mb-1">Email</div>
-                      <a href="mailto:drabhishekchachan@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                        drabhishekchachan@gmail.com
+                      <div className="text-sm font-semibold text-foreground mb-1">
+                        Email
+                      </div>
+                      <a
+                        href="mailto:vktheone.abhishek@gmail.com"
+                        className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        vktheone.abhishek@gmail.com
                       </a>
                     </div>
                   </div>
@@ -82,8 +96,14 @@ const Contact = () => {
                       <Clock className="h-5 w-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-foreground mb-1">Clinic Hours</div>
-                      <p className="text-sm text-muted-foreground">Mon – Sat: 10 AM – 7 PM</p>
+                      <div className="text-sm font-semibold text-foreground mb-1">
+                        Clinic Hours
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        Mon – Sat: 10 AM – 7 PM
+                        <br />
+                        Sun – Appointment on call
+                      </p>
                     </div>
                   </div>
                 </motion.div>
@@ -100,9 +120,12 @@ const Contact = () => {
                       <MapPin className="h-5 w-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-sm font-semibold text-foreground mb-1">Address</div>
+                      <div className="text-sm font-semibold text-foreground mb-1">
+                        Address
+                      </div>
                       <p className="text-sm text-muted-foreground">
-                        Shyam Poly Clinic, Near Jagatpura Railway Phatak, Jagatpura, Jaipur – 302017
+                        Shyam Poly Clinic, Near Jagatpura Railway Phatak,
+                        Jagatpura, Jaipur, Rajasthan – 302017
                       </p>
                     </div>
                   </div>
@@ -114,20 +137,21 @@ const Contact = () => {
 
         {/* Map Section */}
         <section className="pb-0">
-          <div className="w-full h-[400px] bg-muted">
+          <div className="w-full h-[300px] md:h-[400px] bg-muted rounded-2xl overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.2!2d75.87!3d26.83!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zJagatpura+Jaipur!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.08452302018!2d75.8315322!3d26.8349012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db79a3e2d4199:0x231ac9009de01545!2sDr.%20Abhishek%20Chachan%20(Best%20Orthopedic%20Surgeon%20in%20Jaipur)!5e0!3m2!1sen!2sin!4v1707310000000"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Shyam Poly Clinic Location"
+              title="Dr. Abhishek Chachan Clinic Location"
             />
           </div>
         </section>
       </main>
+
       <Footer />
     </div>
   );

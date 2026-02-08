@@ -6,40 +6,70 @@ import serviceJointReplacement from "@/assets/service-joint-replacement.jpg";
 import serviceSpineSurgery from "@/assets/service-spine-surgery.jpeg";
 import serviceTrauma from "@/assets/service-trauma.jpg";
 import serviceArthritis from "@/assets/service-arthritis.jpg";
+import serviceKeyholeSurgery from "@/assets/Keyhole-Surgery.jpg";
 import serviceMinimallyInvasive from "@/assets/service-minimally-invasive.jpg";
+import serviceNerveRootBlock from "@/assets/Selective-Nerve-Root-Block.jpg";
+import servicePlaster from "@/assets/plaster.jpg";
 
 const services = [
   {
     image: serviceJointReplacement,
     title: "Joint Replacement Surgery",
-    subtitle: "Knee & Hip",
-    description: "Advanced knee and hip joint replacement procedures to restore mobility, reduce pain, and improve quality of life using modern implants and techniques.",
+    subtitle: "Knee & Hip Replacement",
+    description:
+      "Advanced knee and hip replacement procedures designed to relieve chronic pain, restore joint function, and improve mobility using modern implants and proven surgical techniques.",
   },
   {
     image: serviceSpineSurgery,
     title: "Spine Surgery",
-    subtitle: "Minimally Invasive & Complex",
-    description: "Expert treatment for herniated discs, spinal stenosis, scoliosis, and other spine conditions using minimally invasive and advanced surgical approaches.",
+    subtitle: "Minimally Invasive & Complex Spine Care",
+    description:
+      "Comprehensive treatment for spine conditions such as slipped disc, spinal stenosis, scoliosis, and degenerative spine disorders using both minimally invasive and advanced surgical approaches.",
   },
   {
     image: serviceTrauma,
     title: "Trauma & Fracture Management",
-    subtitle: "Emergency & Scheduled Care",
-    description: "Comprehensive management of fractures, dislocations, and traumatic injuries with precision surgical fixation and structured rehabilitation.",
+    subtitle: "Emergency & Planned Orthopedic Care",
+    description:
+      "Expert management of fractures, dislocations, and traumatic injuries with precise surgical fixation, prompt intervention, and structured rehabilitation for optimal recovery.",
   },
   {
     image: serviceArthritis,
     title: "Arthritis & Joint Pain Treatment",
-    subtitle: "Non-Surgical & Surgical",
-    description: "Personalized treatment plans for osteoarthritis, rheumatoid arthritis, and chronic joint pain, from conservative care to surgical intervention.",
+    subtitle: "Non-Surgical & Surgical Solutions",
+    description:
+      "Personalized treatment plans for osteoarthritis, rheumatoid arthritis, and chronic joint pain, ranging from conservative management to surgical intervention when required.",
   },
   {
-    image: serviceMinimallyInvasive,
-    title: "Minimally Invasive Orthopedic Surgery",
-    subtitle: "Faster Recovery",
-    description: "State-of-the-art minimally invasive techniques that offer smaller incisions, less pain, reduced hospital stays, and faster recovery times.",
+    image: serviceKeyholeSurgery, // Arthroscopic surgery (keyhole surgery)
+    title: "Arthroscopic (Keyhole) Surgery",
+    subtitle: "Sports Injuries & Joint Problems",
+    description:
+      "Minimally invasive arthroscopic procedures for knee, shoulder, and other joints, allowing accurate diagnosis and treatment with smaller incisions, less pain, and faster recovery.",
+  },
+  {
+    image: serviceMinimallyInvasive, // Minimally invasive spine surgery
+    title: "Minimally Invasive Spine Surgery",
+    subtitle: "Smaller Incisions, Faster Healing",
+    description:
+      "Advanced minimally invasive spine procedures that reduce tissue damage, blood loss, and hospital stay while promoting quicker recovery and long-term spine stability.",
+  },
+  {
+    image: serviceNerveRootBlock, // Nerve root blocks
+    title: "Nerve Root Block & Pain Management",
+    subtitle: "Targeted Pain Relief",
+    description:
+      "Image-guided nerve root blocks and pain management procedures to reduce inflammation and relieve radiating back or neck pain without the need for surgery.",
+  },
+  {
+    image: servicePlaster, // Plaster facility for fractures
+    title: "Plaster & Cast Services",
+    subtitle: "Fracture Stabilization & Healing",
+    description:
+      "On-site plaster and cast application for fractures and soft tissue injuries, ensuring proper immobilization, comfort, and optimal bone healing.",
   },
 ];
+
 
 const ServicesSection = () => {
   return (

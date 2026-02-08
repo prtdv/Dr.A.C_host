@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Users, Award, Star, Building } from "lucide-react";
 
 const stats = [
-  { icon: Award, value: "10+", label: "Years Experience", delay: 0 },
-  { icon: Users, value: "15,000+", label: "Patients Treated", delay: 0.1 },
+  { icon: Award, value: "15+", label: "Years Experience", delay: 0 },
+  { icon: Users, value: "1,00,000+", label: "Patients Treated", delay: 0.1 },
   { icon: Star, value: "4.8★", label: "Google Rating", sublabel: "140+ Reviews", delay: 0.2 },
-  { icon: Building, value: "Senior", label: "Consultant", sublabel: "Monilek Hospital", delay: 0.3 },
+  { icon: Building, value: "Senior Consultant", label: "", sublabel: "Monilek Hospital & Research Centre", delay: 0.3 },
 ];
 
 const StatsSection = () => {

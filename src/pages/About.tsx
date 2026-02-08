@@ -76,7 +76,7 @@ const About = () => {
                   <div className="flex items-center gap-4 p-4 rounded-xl bg-medical-blue-light">
                     <Building className="h-6 w-6 text-primary shrink-0" />
                     <div>
-                      <div className="font-semibold text-foreground">Monilek Hospital, Jaipur</div>
+                      <div className="font-semibold text-foreground">Monilek Hospital & Research Centre, Jaipur</div>
                       <div className="text-sm text-muted-foreground">Senior Consultant – Orthopedics</div>
                     </div>
                   </div>

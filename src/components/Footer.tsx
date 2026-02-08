@@ -51,7 +51,10 @@ const Footer = () => {
                 "Spine Surgery",
                 "Trauma & Fracture Care",
                 "Arthritis Treatment",
-                "Minimally Invasive Surgery",
+                "Arthroscopic (Keyhole) Surgery",
+                "Minimally Invasive Spine Surgery",
+                "Nerve Root Block & Pain Management",
+                "Plaster & Cast Services",
               ].map((service) => (
                 <li key={service}>
                   <Link to="/services" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors">
@@ -72,14 +75,22 @@ const Footer = () => {
                 <Phone className="h-4 w-4 mt-0.5 shrink-0" />
                 +91 98298 85908
               </a>
-              <a href="mailto:drabhishekchachan@gmail.com" className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+              <a href="mailto:vktheone.abhishek@gmail.com" className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Mail className="h-4 w-4 mt-0.5 shrink-0" />
-                drabhishekchachan@gmail.com
+                vktheone.abhishek@gmail.com
               </a>
-              <div className="flex items-start gap-3 text-sm text-primary-foreground/80">
+              <a
+                href="https://maps.app.goo.gl/UNBzcewZUAvStaFm6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              >
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
-                <span>Shyam Poly Clinic, Near Jagatpura Railway Phatak, Jagatpura, Jaipur – 302017</span>
-              </div>
+                <span>
+                  Shyam Poly Clinic, Near Jagatpura Railway Phatak, Jagatpura, Jaipur – 302017
+                </span>
+              </a>
+
             </div>
           </div>
         </div>

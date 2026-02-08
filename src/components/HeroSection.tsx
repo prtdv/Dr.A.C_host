@@ -28,8 +28,8 @@ const HeroSection = () => {
             Orthopedic, Spine & Trauma Specialist
           </span>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary-foreground leading-tight mb-6">
-            Trusted Orthopedic, Spine & Trauma Specialist in Jaipur
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-primary-foreground leading-tight mb-6">
+            Trusted Orthopedic, Joint Replacement, Spine, Sports Injury & Trauma Specialist in Jaipur
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/85 leading-relaxed mb-10 max-w-xl">
