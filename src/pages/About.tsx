@@ -57,8 +57,11 @@ const About = () => {
                 <p className="text-medical-blue-mid font-medium mb-6">MBBS, MS (Orthopedics)</p>
 
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Dr. Abhishek Chachan is a highly skilled orthopedic, spine, and trauma surgeon based in Jaipur, Rajasthan. With over a decade of experience in treating complex bone and joint conditions, he has earned the trust of thousands of patients across the region.
-                </p>
+With over 15 years of clinical experience, Dr. Abhishek Chachan is a distinguished orthopaedic specialist known for delivering advanced, evidence-based care for a wide range of bone and joint conditions. Patients searching for an orthopaedic doctor near them or an experienced orthopaedic surgeon near your area , trust his expertise across Jagatpura, Malviya Nagar, Jaipur.
+Widely recognized as a leading orthopaedic doctor in Jagatpura, Malviya Nagar, Jaipur, Dr. Chachan provides comprehensive care as a bone doctor / bone specialist, focusing on accurate diagnosis and effective treatment outcomes. His core expertise lies in joint replacement procedures, where he is regarded as a skilled knee replacement surgeon  and hip replacement surgeon , helping patients restore mobility and improve their quality of life.
+He is also an experienced spine surgeon, sports injury surgeon, and ligament surgeon , managing complex orthopaedic and sports-related conditions with precision. As a proficient arthroscopy surgeon, he utilizes minimally invasive techniques to ensure faster recovery and optimal results.
+In addition, Dr. Chachan offers specialized care as a foot and ankle specialist and a trusted pediatric orthopaedic doctor near  you, catering to orthopaedic conditions across all age groups.
+For those seeking an orthopaedic surgeon near you or a reliable specialist in Jagatpura, Malviya Nagar, Jaipur, Dr. Abhishek Chachan is committed to delivering personalized treatment plans, modern surgical solutions, and compassionate care—enabling patients to return to active, pain-free lives.                </p>
 
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   His expertise lies in joint replacement surgery (knee and hip), spine surgery including minimally invasive procedures, trauma and fracture management, and the treatment of arthritis and chronic joint pain. He is known for his patient-first approach, clear communication, and commitment to achieving the best possible outcomes for every individual.
