@@ -54,12 +54,11 @@ const AboutCard = () => {
             </p>
 
             <p className="text-muted-foreground leading-relaxed mb-8">
-              With over 15+ years of experience in the orthopedic field,
-              Dr. Abhishek Chachan is dedicated to providing precise,
-              patient-first treatment for bone and joint conditions.
-              His expertise spans joint replacement, spine surgery,
-              sports injuries, and trauma management—helping thousands
-              of patients return to active, pain-free lives.
+              With over 15 years of clinical experience, Dr. Abhishek Chachan is a distinguished orthopaedic specialist known for delivering advanced, evidence-based care for a wide range of bone and joint conditions. Patients searching for an orthopaedic doctor near them or an experienced orthopaedic surgeon near your area , trust his expertise across Jagatpura, Malviya Nagar, Jaipur.
+Widely recognized as a leading orthopaedic doctor in Jagatpura, Malviya Nagar, Jaipur, Dr. Chachan provides comprehensive care as a bone doctor / bone specialist, focusing on accurate diagnosis and effective treatment outcomes. His core expertise lies in joint replacement procedures, where he is regarded as a skilled knee replacement surgeon  and hip replacement surgeon , helping patients restore mobility and improve their quality of life.
+He is also an experienced spine surgeon, sports injury surgeon, and ligament surgeon , managing complex orthopaedic and sports-related conditions with precision. As a proficient arthroscopy surgeon, he utilizes minimally invasive techniques to ensure faster recovery and optimal results.
+In addition, Dr. Chachan offers specialized care as a foot and ankle specialist and a trusted pediatric orthopaedic doctor near  you, catering to orthopaedic conditions across all age groups.
+For those seeking an orthopaedic surgeon near you or a reliable specialist in Jagatpura, Malviya Nagar, Jaipur, Dr. Abhishek Chachan is committed to delivering personalized treatment plans, modern surgical solutions, and compassionate care—enabling patients to return to active, pain-free lives.
             </p>
 
             {/* Info Pointers */}
